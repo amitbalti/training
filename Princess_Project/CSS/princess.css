@@ -1,0 +1,184 @@
+body {
+    text-align: center;
+    background-color: #242424;
+}
+
+.topBar {
+    background-color: black;
+    height: 120px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.logoImg {
+    width: 173px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 730px;
+}
+
+.login {
+    margin-left: 470px;
+    margin-bottom: 20px;
+    border: transparent;
+    background-color: transparent;
+    text-transform: uppercase;
+    color:#AB821A;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.register {
+    margin-left: 30px;
+    padding: 11px 34px 11px 34px;
+    background-color: transparent;
+    border: 1px solid #AB821A;
+    border-radius: 33px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.leftImg {
+    float: left;
+    height: 385px;
+    width: 632px;
+    margin-left: 320px;
+    margin-top: 40px;
+}
+
+.freeSpins {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -82px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 9px 22px 8px 23px;
+    background-color: transparent;
+    border: 1px solid #525252;
+    border-radius: 33px;
+    color: #AB821A;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.rightTxt {
+    float:right;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 970px;
+    margin-top: -380px;
+    /* font: Montserrat; */
+}
+
+h2 {
+    font-size: 24px;
+    color: #FFFFFFB3;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 970px;
+    /* font: Montserrat; */
+}
+
+.textParag {
+    font-size: 16px;
+    color: #FFFFFFB3;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 970px;
+    margin-right: 150px;
+}
+
+.detailsLink {
+    font-size: 16px;
+    color: #AB821A;
+    text-decoration: underline;
+}
+
+
+.deposit {
+    padding: 13px 47px 13px 47px;
+    background-color: #AB821A;
+    border: 1px solid #AB821A;
+    border-radius: 33px;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-left: 600px;
+    margin-right: 150px;
+}
+
+
+
+.bottomMenu {
+    float: left;
+    text-align: left;
+    background-color: #313131;
+    width: 1180px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 320px;
+}
+
+.titles {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.subTitles {
+    color: #FFFFFFB3;
+    font-size: 14px;
+}
+
+
+.firstNav {
+    margin-left: 40px;
+}
+
+.secondNav {
+    margin-left: 370px;
+    margin-top: -212px;
+}
+
+.thirdNav {
+    margin-left: 700px;
+    margin-top: -212px;
+}
+
+.fourthNav {
+    margin-left: 1000px;
+    margin-top: -212px;
+}
+
+hr {
+    border: 1px solid #242424;
+    width: 1100px;
+}
+
+svg {
+    margin-left: 20px; 
+    margin-top: 10px;
+}
+
+.about-dot-me {
+    margin-left: 400px;
+}
+
+.titles:hover, 
+.subTitles:hover, 
+.deposit:hover, 
+.detailsLink:hover,
+.freeSpins:hover,
+.register:hover,
+.login:hover,
+.logoImg:hover,
+svg:hover {
+    cursor: pointer;
+}
