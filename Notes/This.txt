@@ -1,0 +1,12 @@
+const test = {
+  prop: 42,
+  func: function() {
+    return this.prop;
+  },
+}; console.log(test.func());
+// Expected output: 42
+
+If we make a function, inside the function you have 'this' that returns what is inside that function only.
+If you want to access something outside the function you can`t.
+'this' implies only for normal function with declaration function app() {} 
+For arrow function you can access elements of outside of the function, because `=>` in the back solves the problem of this/that.

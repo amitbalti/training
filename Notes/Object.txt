@@ -1,0 +1,7 @@
+To add things to an empty object: 
+    let a = {};
+
+    We can do it with the following ways:
+        - a.name = 'Andrei'
+        - Object.assign() 
+        - a["name"] = "andrei"
