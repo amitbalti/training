@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luck - Lock Screen</title>
+    <link rel="stylesheet" href="../css/luck.css" />
+    <script defer src="../js/luck.js"></script>
+  </head>
+  <body>
+    <div class="topBar">
+      <img
+        src="../img/luck_logo_normal/luck_logo_normal.png"
+        class="luckLogo"
+      />
+      <button class="login">Login</button>
+    </div>
+    <div class="centeredBox">
+      <img
+        src="../img/location_icon/icon_check_location.png"
+        class="locationIcon"
+      />
+      <h2>Want to play?</h2>
+      <p>Please select your country to continue</p>
+      <button class="uk" id="ukClicked" onclick="changeColorUK()">
+        <img
+          class="flagsIcon"
+          src="../img/icon_uk/icon_uk.png"
+          style="float: left"
+        />United Kingdom</button
+      ><br />
+      <button class="ro" id="roClicked" onclick="changeColorRo()">
+        <img
+          class="flagsIcon"
+          src="../img/romania_icon/icon_ro.png"
+          style="float: left"
+        />Romania
+      </button>
+    </div>
+  </body>
+</html>
